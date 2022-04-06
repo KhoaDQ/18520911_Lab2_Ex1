@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/main_sm_file"
+        android:title="File"
+        >
+        <menu>
+            <item android:id="@+id/sm_new"
+                android:title="New"/>
+            <item android:id="@+id/sm_save"
+                android:title="Save"/>
+            <item android:id="@+id/sm_load"
+                android:title="Load"/>
+            <item android:id="@+id/sm_edit"
+                android:title="Edit"/>
+        </menu>
+    </item>
+    <item android:id="@+id/main_sm_view" android:title="View"/>
+</menu>
